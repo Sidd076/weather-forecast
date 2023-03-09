@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+ 
+        <div class="input-boxes">
+          
+            <div class="input-box">
+              <h1>SignUp page</h1>
+                Full name:
+                <input type="text" id = "name" placeholder="Enter your Full name" required>
+            </div><br>
+            <div class="input-box">
+                Mobile Number:
+                <input type="text"  id ="mobile" placeholder="Enter your mobile number" required>
+            </div><br>
+            <div class="input-box">
+              Email:
+              <input type="text"  id = "email" placeholder="Enter your email" required>
+            </div><br>
+            <div class="input-box">
+              Password:
+              <input type="password" id = "password" placeholder="Enter your password" required><br>
+             <h3>Already Have an accout!!</h3> 
+              <div class="text"><a href="signin.html">SignIn</a></div><br>
+            </div><br>
+              <button class="block" onclick="postData()"><b>Register User</b></button>
+            
+            </div>
+     
+      
+       
+</body>
+</html>
